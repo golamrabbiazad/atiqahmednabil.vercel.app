@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Portfolio - AAN Personal Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Template Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,600i,700" rel="stylesheet">
+
+    <!-- Template CSS Files -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/preloader.min.css" rel="stylesheet">
+    <link href="css/circle.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/fontawesome.css">
+    <link href="css/fm.revealator.jquery.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- CSS Skin File -->
+    <link href="css/skins/yellow.css" rel="stylesheet">
+
+    <!-- Live Style Switcher - demo only -->
+    <link rel="alternate stylesheet" type="text/css" title="blue" href="css/skins/blue.css" />
+    <link rel="alternate stylesheet" type="text/css" title="green" href="css/skins/green.css" />
+    <link rel="alternate stylesheet" type="text/css" title="yellow" href="css/skins/yellow.css" />
+    <link rel="alternate stylesheet" type="text/css" title="blueviolet" href="css/skins/blueviolet.css" />
+    <link rel="alternate stylesheet" type="text/css" title="goldenrod" href="css/skins/goldenrod.css" />
+    <link rel="alternate stylesheet" type="text/css" title="magenta" href="css/skins/magenta.css" />
+    <link rel="alternate stylesheet" type="text/css" title="orange" href="css/skins/orange.css" />
+    <link rel="alternate stylesheet" type="text/css" title="purple" href="css/skins/purple.css" />
+    <link rel="alternate stylesheet" type="text/css" title="red" href="css/skins/red.css" />
+    <link rel="alternate stylesheet" type="text/css" title="yellowgreen" href="css/skins/yellowgreen.css" />
+    <link rel="stylesheet" type="text/css" href="css/styleswitcher.css" />
+
+    <!-- Modernizr JS File -->
+    <script src="js/modernizr.custom.js"></script>
+</head>
+
+<body class="portfolio">
+<!-- Live Style Switcher Starts - demo only -->
+<div id="switcher" class="">
+    <div class="content-switcher">
+        <h4>STYLE SWITCHER</h4>
+        <ul>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('purple');" title="purple" class="color"><img src="img/styleswitcher/purple.png" alt="purple"/></a>
+            </li>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('red');" title="red" class="color"><img src="img/styleswitcher/red.png" alt="red"/></a>
+            </li>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('blueviolet');" title="blueviolet" class="color"><img src="img/styleswitcher/blueviolet.png" alt="blueviolet"/></a>
+            </li>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('blue');" title="blue" class="color"><img src="img/styleswitcher/blue.png" alt="blue"/></a>
+            </li>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('goldenrod');" title="goldenrod" class="color"><img src="img/styleswitcher/goldenrod.png" alt="goldenrod"/></a>
+            </li>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('magenta');" title="magenta" class="color"><img src="img/styleswitcher/magenta.png" alt="magenta"/></a>
+            </li>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('yellowgreen');" title="yellowgreen" class="color"><img src="img/styleswitcher/yellowgreen.png" alt="yellowgreen"/></a>
+            </li>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('orange');" title="orange" class="color"><img src="img/styleswitcher/orange.png" alt="orange"/></a>
+            </li>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('green');" title="green" class="color"><img src="img/styleswitcher/green.png" alt="green"/></a>
+            </li>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('yellow');" title="yellow" class="color"><img src="img/styleswitcher/yellow.png" alt="yellow"/></a>
+            </li>
+        </ul>
+
+        <a href="contact.html" class="waves-effect waves-light font-weight-700 purchase"><i class="fa fa-shopping-cart"></i> Purchase</a>
+        <div id="hideSwitcher">&times;</div>
+    </div>
+</div>
+<div id="showSwitcher" class="styleSecondColor"><i class="fa fa-cog fa-spin"></i></div>
+<!-- Live Style Switcher Ends - demo only -->
+<!-- Header Starts -->
+<header class="header" id="navbar-collapse-toggle">
+    <!-- Fixed Navigation Starts -->
+    <ul class="icon-menu d-none d-lg-block revealator-slideup revealator-once revealator-delay1">
+        <li class="icon-box">
+            <i class="fas fa-home"></i>
+            <a href="index.html">
+                <h2>Home</h2>
+            </a>
+        </li>
+        <li class="icon-box">
+            <i class="fas fa-user"></i>
+            <a href="about.html">
+                <h2>About</h2>
+            </a>
+        </li>
+        <li class="icon-box">
+            <i class="fas fa-briefcase"></i>
+            <a href="portfolio.html">
+                <h2>Portfolio</h2>
+            </a>
+        </li>
+        <li class="icon-box active">
+            <i class="fas fa-tools"></i>
+            <a href="services.html">
+                <h2>Services</h2>
+            </a>
+        </li>
+        <li class="icon-box">
+            <i class="fas fa-envelope-open"></i>
+            <a href="contact.html">
+                <h2>Contact</h2>
+            </a>
+        </li>
+        <li class="icon-box">
+            <i class="fas fa-comments"></i>
+            <a href="blog.html">
+                <h2>Blog</h2>
+            </a>
+        </li>
+        <li class="icon-box">
+            <i class="fas fa-user-friends"></i>
+            <a href="testimonial.html">
+                <h2>Testimonial</h2>
+            </a>
+        </li>
+    </ul>
+    <!-- Fixed Navigation Ends -->
+    <!-- Mobile Menu Starts -->
+    <nav role="navigation" class="d-block d-lg-none">
+        <div id="menuToggle">
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+            <ul class="list-unstyled" id="menu">
+                <li><a href="index.html"><i class="fa fa-home"></i><span>Home</span></a></li>
+                <li><a href="about.html"><i class="fa fa-user"></i><span>About</span></a></li>
+                <li><a href="portfolio.html"><i class="fa fa-folder-open"></i><span>Portfolio</span></a></li>
+                <li class="active"><a href="services.html"><i class="fas fa-tools"></i><span>Services</span></a></li>
+                <li><a href="contact.html"><i class="fa fa-envelope-open"></i><span>Contact</span></a></li>
+                <li><a href="blog.html"><i class="fa fa-comments"></i><span>Blog</span></a></li>
+                <li><a href="testimonial.html"><i class="fa fas fa-user-friends"></i><span>Testimonial</span></a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Mobile Menu Ends -->
+</header>
+<!-- Header Ends -->
+<!-- Page Title Starts -->
+<section class="title-section text-left text-sm-center revealator-slideup revealator-once revealator-delay1">
+    <h1>my <span>services</span></h1>
+    <span class="title-bg">I'm Offering You</span>
+</section>
+<!-- Page Title Ends -->
+
+<!--Servives section-->
+<div class="section revealator-slideup revealator-once revealator-delay1">
+    <div class="container">
+        
+        <div class="row mb-20 mt-40 mb">
+            <!--service-item-->
+            <div class="col-lg-4 col-md-6 mt">
+                <div class="service-item">
+                    <div class="icon bg-base-color">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="content">
+                        <h5> Web Design </h5>
+                        <p>
+                            I will provide personal portfolio or landing page design with proper responsive including clean & modern interface.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        
+            <!--service-item-->
+            <div class="col-lg-4 col-md-6 mb">
+                <div class="service-item">
+                    <div class="icon bg-base-color">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <div class="content">
+                        <h5> Ui/Ux Design </h5>
+                        <p>
+                            Any types of Ui design is here. You can get your Web or App Ui with proper direction based on your need including 
+                            editable files.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        
+            <!--service-item-->
+            <div class="col-lg-4 col-md-6 mb">
+                <div class="service-item ">
+                    <div class="icon bg-base-color">
+                        <i class="fas fa-print"></i>
+                    </div>
+                    <div class="content">
+                        <h5> Print Elemnet Design </h5>
+                        <p>
+                            I can design any types of business print element as like Flyer, Brochure, Business Card etc based on client's requirement.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        
+            <!--service-item-->
+            <div class="col-lg-4 col-md-6 mb">
+                <div class="service-item ">
+                    <div class="icon bg-base-color">
+                        <i class="fas fa-microchip"></i>
+                    </div>
+                    <div class="content">
+                        <h5> Tech Content Creation </h5>
+                        <p>
+                            I can create any tech content as well as IT sector's content. Blogs & Article on IT sector and PC sector also create here. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        
+            <!--service-item-->
+            <div class="col-lg-4 col-md-6 mb">
+                <div class="service-item ">
+                    <div class="icon bg-base-color">
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                    <div class="content">
+                        <h5> YouTube Customization </h5>
+                        <p>
+                            I create YouTube channel with proper SEO and Optimization. I also provide SEO service for channel's video, thumbnail, 
+                            channel art & logo.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        
+            <!--service-item-->
+            <div class="col-lg-4 col-md-6 mb">
+                <div class="service-item">
+                    <div class="icon bg-base-color">
+                        <i class="fas fa-share-alt"></i>
+                    </div>
+                    <div class="content">
+                        <h5> Social Media Service </h5>
+                        <p>
+                            I can boost YouTube video for views, subscriber, watchtime, likes & comment and also for Facebook, Instagram & other social
+                            media.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!--service-item-->
+            <div class="col-lg-4 col-md-6">
+                <div class="service-item">
+                    <div class="icon bg-base-color">
+                        <i class="fas fa-laptop"></i>
+                    </div>
+                    <div class="content">
+                        <h5> PC Build </h5>
+                        <p>
+                            I can give you proper suggestion for your PC based on your purpose and budget. I can also provide you clean PC build with
+                            proper management. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!--service-item-->
+            <div class="col-lg-4 col-md-6">
+                <div class="service-item">
+                    <div class="icon bg-base-color">
+                        <i class="fas fa-images"></i>
+                    </div>
+                    <div class="content">
+                        <h5> Photo Editing </h5>
+                        <p>
+                            Attractive photo edit with proper Manipulation, Bluring, Filtering, Enhancing etc is here creating on 
+                            based of client's requirement.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!--service-item-->
+            <div class="col-lg-4 col-md-6">
+                <div class="service-item">
+                    <div class="icon bg-base-color">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <div class="content">
+                        <h5> IT Courses </h5>
+                        <p>
+                            I'm mentoring on Responsive Web Design, Graphic Design, Ui/Ux Design, YouTube Marketing & Computer Basic with proper 
+                            freelancing guide.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!--Servives section-->
+
+<!-- Template JS Files -->
+<script src="js/jquery-3.5.0.min.js"></script>
+<script src="js/styleswitcher.js"></script>
+<script src="js/preloader.min.js"></script>
+<script src="js/fm.revealator.jquery.min.js"></script>
+<script src="js/imagesloaded.pkgd.min.js"></script>
+<script src="js/masonry.pkgd.min.js"></script>
+<script src="js/classie.js"></script>
+<script src="js/cbpGridGallery.js"></script>
+<script src="js/jquery.hoverdir.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/custom.js"></script>
+
+</body>
+
+</html>

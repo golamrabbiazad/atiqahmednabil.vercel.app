@@ -1,0 +1,489 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>About - AAN Personal Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Template Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,600i,700" rel="stylesheet">
+
+    <!-- Template CSS Files -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/preloader.min.css" rel="stylesheet">
+    <link href="css/circle.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/fontawesome.css">
+    <link href="css/fm.revealator.jquery.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- CSS Skin File -->
+    <link href="css/skins/yellow.css" rel="stylesheet">
+
+    <!-- Live Style Switcher - demo only -->
+    <link rel="alternate stylesheet" type="text/css" title="blue" href="css/skins/blue.css" />
+    <link rel="alternate stylesheet" type="text/css" title="green" href="css/skins/green.css" />
+    <link rel="alternate stylesheet" type="text/css" title="yellow" href="css/skins/yellow.css" />
+    <link rel="alternate stylesheet" type="text/css" title="blueviolet" href="css/skins/blueviolet.css" />
+    <link rel="alternate stylesheet" type="text/css" title="goldenrod" href="css/skins/goldenrod.css" />
+    <link rel="alternate stylesheet" type="text/css" title="magenta" href="css/skins/magenta.css" />
+    <link rel="alternate stylesheet" type="text/css" title="orange" href="css/skins/orange.css" />
+    <link rel="alternate stylesheet" type="text/css" title="purple" href="css/skins/purple.css" />
+    <link rel="alternate stylesheet" type="text/css" title="red" href="css/skins/red.css" />
+    <link rel="alternate stylesheet" type="text/css" title="yellowgreen" href="css/skins/yellowgreen.css" />
+    <link rel="stylesheet" type="text/css" href="css/styleswitcher.css" />
+
+    <!-- Modernizr JS File -->
+    <script src="js/modernizr.custom.js"></script>
+</head>
+
+<body class="about">
+<!-- Live Style Switcher Starts - demo only -->
+<div id="switcher" class="">
+    <div class="content-switcher">
+        <h4>STYLE SWITCHER</h4>
+        <ul>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('purple');" title="purple" class="color"><img src="img/styleswitcher/purple.png" alt="purple"/></a>
+            </li>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('red');" title="red" class="color"><img src="img/styleswitcher/red.png" alt="red"/></a>
+            </li>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('blueviolet');" title="blueviolet" class="color"><img src="img/styleswitcher/blueviolet.png" alt="blueviolet"/></a>
+            </li>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('blue');" title="blue" class="color"><img src="img/styleswitcher/blue.png" alt="blue"/></a>
+            </li>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('goldenrod');" title="goldenrod" class="color"><img src="img/styleswitcher/goldenrod.png" alt="goldenrod"/></a>
+            </li>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('magenta');" title="magenta" class="color"><img src="img/styleswitcher/magenta.png" alt="magenta"/></a>
+            </li>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('yellowgreen');" title="yellowgreen" class="color"><img src="img/styleswitcher/yellowgreen.png" alt="yellowgreen"/></a>
+            </li>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('orange');" title="orange" class="color"><img src="img/styleswitcher/orange.png" alt="orange"/></a>
+            </li>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('green');" title="green" class="color"><img src="img/styleswitcher/green.png" alt="green"/></a>
+            </li>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('yellow');" title="yellow" class="color"><img src="img/styleswitcher/yellow.png" alt="yellow"/></a>
+            </li>
+        </ul>
+
+        <a href="contact.html" class="waves-effect waves-light font-weight-700 purchase"><i class="fa fa-shopping-cart"></i> Purchase</a>
+        <div id="hideSwitcher">&times;</div>
+    </div>
+</div>
+<div id="showSwitcher" class="styleSecondColor"><i class="fa fa-cog fa-spin"></i></div>
+<!-- Live Style Switcher Ends - demo only -->
+<!-- Header Starts -->
+<header class="header" id="navbar-collapse-toggle">
+    <!-- Fixed Navigation Starts -->
+    <ul class="icon-menu d-none d-lg-block revealator-slideup revealator-once revealator-delay1">
+        <li class="icon-box">
+            <i class="fas fa-home"></i>
+            <a href="index.html">
+                <h2>Home</h2>
+            </a>
+        </li>
+        <li class="icon-box active">
+            <i class="fas fa-user"></i>
+            <a href="about.html">
+                <h2>About</h2>
+            </a>
+        </li>
+        <li class="icon-box">
+            <i class="fas fa-briefcase"></i>
+            <a href="portfolio.html">
+                <h2>Portfolio</h2>
+            </a>
+        </li>
+        <li class="icon-box">
+            <i class="fas fa-envelope-open"></i>
+            <a href="contact.html">
+                <h2>Contact</h2>
+            </a>
+        </li>
+        <li class="icon-box">
+            <i class="fas fa-tools"></i>
+            <a href="services.html">
+                <h2>Services</h2>
+            </a>
+        </li>
+        <li class="icon-box">
+            <i class="fas fa-comments"></i>
+            <a href="blog.html">
+                <h2>Blog</h2>
+            </a>
+        </li>
+        <li class="icon-box">
+            <i class="fa fas fa-user-friends"></i>
+            <a href="testimonial.html">
+                <h2>Testimonial</h2>
+            </a>
+        </li>
+    </ul>
+    <!-- Fixed Navigation Ends -->
+    <!-- Mobile Menu Starts -->
+    <nav role="navigation" class="d-block d-lg-none">
+        <div id="menuToggle">
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+            <ul class="list-unstyled" id="menu">
+                <li><a href="index.html"><i class="fa fa-home"></i><span>Home</span></a></li>
+                <li class="active"><a href="about.html"><i class="fa fa-user"></i><span>About</span></a></li>
+                <li><a href="portfolio.html"><i class="fa fa-folder-open"></i><span>Portfolio</span></a></li>
+                <li><a href="services.html"><i class="fas fa-tools"></i><span>Services</span></a></li>
+                <li><a href="contact.html"><i class="fa fa-envelope-open"></i><span>Contact</span></a></li>
+                <li><a href="blog.html"><i class="fa fa-comments"></i><span>Blog</span></a></li>
+                <li><a href="testimonial.html"><i class="fa fas fa-user-friends"></i><span>Testimonial</span></a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Mobile Menu Ends -->
+</header>
+<!-- Header Ends -->
+<!-- Page Title Starts -->
+<section class="title-section text-left text-sm-center revealator-slideup revealator-once revealator-delay1">
+    <h1>ABOUT <span>ME</span></h1>
+    <span class="title-bg">Resume</span>
+</section>
+<!-- Page Title Ends -->
+<!-- Main Content Starts -->
+<section class="main-content revealator-slideup revealator-once revealator-delay1">
+    <div class="container">
+        <div class="row">
+            <!-- Personal Info Starts -->
+            <div class="col-12 col-lg-5 col-xl-6">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="text-uppercase custom-title mb-0 ft-wt-600">personal infos</h3>
+                    </div>
+                    <div class="col-12 d-block d-sm-none">
+                        <img src="img/img-mobile.jpg" class="img-fluid main-img-mobile" alt="my picture" />
+                    </div>
+                    <div class="col-6">
+                        <ul class="about-list list-unstyled open-sans-font">
+                            <li> <span class="title">first name :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">Atiq Ahmed</span> </li>
+                            <li> <span class="title">last name :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">Nabil</span> </li>
+                            <li> <span class="title">Age :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">23 Years</span> </li>
+                            <li> <span class="title">Nationality :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">Bangladeshi</span> </li>
+                            <li> <span class="title">Freelance :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">Available</span> </li>
+                            <li> <span class="title">Weakness :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">I am Stutter</span> </li>
+                        </ul>
+                    </div>
+                    <div class="col-6">
+                        <ul class="about-list list-unstyled open-sans-font">
+                            <li> <span class="title">Address :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">Khulna</span> </li>
+                            <li> <span class="title">phone :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">+88 01781 710112</span> </li>
+                            <li> <span class="title">Email :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">aanmpmilu005@gmail.com</span> </li>
+                            <li> <span class="title">Skype :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">live:aanmpmilu003</span> </li>
+                            <li> <span class="title">languages :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">Bengali, English</span> </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 mt-3">
+                        <a href="resume.html" class="btn btn-download">Download CV</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Personal Info Ends -->
+            <!-- Boxes Starts -->
+            <div class="col-12 col-lg-7 col-xl-6 mt-5 mt-lg-0">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="box-stats with-margin">
+                            <h3 class="poppins-font position-relative">03</h3>
+                            <p class="open-sans-font m-0 position-relative text-uppercase">years of <span class="d-block">experience</span></p>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="box-stats with-margin">
+                            <h3 class="poppins-font position-relative">107</h3>
+                            <p class="open-sans-font m-0 position-relative text-uppercase">completed <span class="d-block">projects</span></p>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="box-stats">
+                            <h3 class="poppins-font position-relative">21</h3>
+                            <p class="open-sans-font m-0 position-relative text-uppercase">Happy<span class="d-block">customers</span></p>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="box-stats">
+                            <h3 class="poppins-font position-relative">11</h3>
+                            <p class="open-sans-font m-0 position-relative text-uppercase">awards <span class="d-block">won</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Boxes Ends -->
+        </div>
+        <hr class="separator">
+        <!-- Skills Starts -->
+        <div class="row">
+            <div class="col-12">
+                <h3 class="text-uppercase pb-4 pb-sm-5 mb-3 mb-sm-0 text-left text-sm-center custom-title ft-wt-600">My Skills</h3>
+            </div>
+            <div class="col-6 col-md-3 mb-3 mb-sm-5">
+                <div class="c100 p98">
+                    <span>98%</span>
+                    <div class="slice">
+                        <div class="bar"></div>
+                        <div class="fill"></div>
+                    </div>
+                </div>
+                <h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">html</h6>
+            </div>
+            <div class="col-6 col-md-3 mb-3 mb-sm-5">
+                <div class="c100 p92">
+                    <span>92%</span>
+                    <div class="slice">
+                        <div class="bar"></div>
+                        <div class="fill"></div>
+                    </div>
+                </div>
+                <h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">css</h6>
+            </div>
+            <div class="col-6 col-md-3 mb-3 mb-sm-5">
+                <div class="c100 p70">
+                    <span>70%</span>
+                    <div class="slice">
+                        <div class="bar"></div>
+                        <div class="fill"></div>
+                    </div>
+                </div>
+                <h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">javascript</h6>
+            </div>
+            <div class="col-6 col-md-3 mb-3 mb-sm-5">
+                <div class="c100 p62">
+                    <span>62%</span>
+                    <div class="slice">
+                        <div class="bar"></div>
+                        <div class="fill"></div>
+                    </div>
+                </div>
+                <h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">jquery</h6>
+            </div>
+            <div class="col-6 col-md-3 mb-3 mb-sm-5">
+                <div class="c100 p87">
+                    <span>87%</span>
+                    <div class="slice">
+                        <div class="bar"></div>
+                        <div class="fill"></div>
+                    </div>
+                </div>
+                <h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">photoshop</h6>
+            </div>
+            <div class="col-6 col-md-3 mb-3 mb-sm-5">
+                <div class="c100 p94">
+                    <span>94%</span>
+                    <div class="slice">
+                        <div class="bar"></div>
+                        <div class="fill"></div>
+                    </div>
+                </div>
+                <h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">Illustrator</h6>
+            </div>
+            <div class="col-6 col-md-3 mb-3 mb-sm-5">
+                <div class="c100 p57">
+                    <span>57%</span>
+                    <div class="slice">
+                        <div class="bar"></div>
+                        <div class="fill"></div>
+                    </div>
+                </div>
+                <h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">SEO</h6>
+            </div>
+            <div class="col-6 col-md-3 mb-3 mb-sm-5">
+                <div class="c100 p71">
+                    <span>71%</span>
+                    <div class="slice">
+                        <div class="bar"></div>
+                        <div class="fill"></div>
+                    </div>
+                </div>
+                <h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">marketing</h6>
+            </div>
+        </div>
+        <!-- Skills Ends -->
+        <hr class="separator mt-1">
+        <!-- Experience & Education Starts -->
+        <div class="row">
+            <div class="col-12">
+                <h3 class="text-uppercase pb-5 mb-0 text-left text-sm-center custom-title ft-wt-600">Experience <span>&</span> Education</h3>
+            </div>
+            <div class="col-lg-6 m-15px-tb">
+                <div class="resume-box">
+                    <ul>
+                        <li>
+                            <div class="icon">
+                                <i class="fa fa-briefcase"></i>
+                            </div>
+                            <span class="time open-sans-font text-uppercase">2018 - Present</span>
+                            <h5 class="poppins-font text-uppercase">Front-End Developer <span class="place open-sans-font">Envato, Local</span></h5>
+                            <p class="open-sans-font">I'm certified as a Front-End Developer from "Creative IT Institute of Bangladesh". I've done many project on it. </p>
+                        </li>
+                        <li>
+                            <div class="icon">
+                                <i class="fa fa-briefcase"></i>
+                            </div>
+                            <span class="time open-sans-font text-uppercase">2019 - Present</span>
+                            <h5 class="poppins-font text-uppercase">UI/UX Designer <span class="place open-sans-font">Envato, Local, AMH IT</span></h5>
+                            <p class="open-sans-font">I'm certified as a Profesional Graphic Designer as well as Ui/Ux Designer from "Shikhbe Shobai IT Institute". I'm also working in a new IT company named "Alhaj Mokbul Hossain IT Insitute"</p>
+                        </li>
+                        <li>
+                            <div class="icon">
+                                <i class="fa fa-briefcase"></i>
+                            </div>
+                            <span class="time open-sans-font text-uppercase">2016 - Present</span>
+                            <h5 class="poppins-font text-uppercase">Content Creator<span class="place open-sans-font">YouTube, Science Book</span></h5>
+                            <p class="open-sans-font">I'm maintaing a YouTube channel named "1 Second Wait". Just search the channel name in YouTube. You will find it.</p>
+                            <p class="open-sans-font">I've written an engineering book named "Electrical and Electronic Circuit". This book is written for the student of "National University".</p>
+                        </li>
+                        <li>
+                            <div class="icon">
+                                <i class="fa fa-briefcase"></i>
+                            </div>
+                            <span class="time open-sans-font text-uppercase">2016 - Present</span>
+                            <h5 class="poppins-font text-uppercase">Gamer<span class="place open-sans-font">YouTube, Local</span></h5>
+                            <p class="open-sans-font">Yeahh, you've seen right. I love gaming, specially shooting game like, PUBG, COD, FarCry, CS:GO, Valorant, Fortnite etc. BTW, nothing to say anything.</p>
+                        </li>
+                        <li>
+                            <div class="icon">
+                                <i class="fa fa-briefcase"></i>
+                            </div>
+                            <span class="time open-sans-font text-uppercase">2014 - Present</span>
+                            <h5 class="poppins-font text-uppercase">Mentor<span class="place open-sans-font">Science, ICT, Graphic Design, Responsive Web Design & YouTube Marketing</span></h5>
+                            <p class="open-sans-font">Yes I'm teaching above Topic but not everyone. Coz i've the problem of stuttering and people take it as a funny thing, thats why I don't teach everyone</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-6 m-15px-tb">
+                <div class="resume-box">
+                    <ul>
+                        <li>
+                            <div class="icon">
+                                <i class="fa fa-graduation-cap"></i>
+                            </div>
+                            <span class="time open-sans-font text-uppercase">2017</span>
+                            <h5 class="poppins-font text-uppercase">Web Engineering<span class="place open-sans-font">Creative IT Institute</span></h5>
+                            <p class="open-sans-font">I've completed the course on Web Design & Developemnt. I'va aslo done some major project for my versity and local client.</p>
+                        </li>
+                        <li>
+                            <div class="icon">
+                                <i class="fa fa-graduation-cap"></i>
+                            </div>
+                            <span class="time open-sans-font text-uppercase">2018</span>
+                            <h5 class="poppins-font text-uppercase">Bachelor Degree<span class="place open-sans-font">National University</span></h5>
+                            <p class="open-sans-font" style="font-weight: 900">Computer Science & Engineering (B.Sc Honors in CSE).</p>
+                            <p class="open-sans-font">I've nothing to say about this subject and please, don't hire me to repair your PC hardware. It isn't our work. But what we do?? wanna know!! Then knock me.</p>
+                        </li>
+                        <li>
+                            <div class="icon">
+                                <i class="fa fa-graduation-cap"></i>
+                            </div>
+                            <span class="time open-sans-font text-uppercase">2017</span>
+                            <h5 class="poppins-font text-uppercase">HSC - College Level<span class="place open-sans-font">Alhaj Mockbul Hossain University College</span></h5>
+                            <p class="open-sans-font" style="font-weight: 900">Science</p>
+                            <p class="open-sans-font">GPA: 3.22</p>
+                            <p class="open-sans-font">Board: Dhaka</p>
+                            <p class="open-sans-font">Don't judge a person by his GPA :-)</p>
+                        </li>
+                        <li>
+                            <div class="icon">
+                                <i class="fa fa-graduation-cap"></i>
+                            </div>
+                            <span class="time open-sans-font text-uppercase">2015</span>
+                            <h5 class="poppins-font text-uppercase">SSC - School Level<span class="place open-sans-font">Bengali Medium High School</span></h5>
+                            <p class="open-sans-font" style="font-weight: 900">Science</p>
+                            <p class="open-sans-font">GPA: 3.86</p>
+                            <p class="open-sans-font">Board: Dhaka</p>
+                            <p class="open-sans-font">Don't judge a person by his GPA :-)</p>
+                        </li>
+                        <li>
+                            <div class="icon">
+                                <i class="fa fa-graduation-cap"></i>
+                            </div>
+                            <span class="time open-sans-font text-uppercase">2010</span>
+                            <h5 class="poppins-font text-uppercase">Hifzul Quran<span class="place open-sans-font">Darul Quran Siddikia Kamil Madrasah</span></h5>
+                            <p class="open-sans-font" style="font-weight: 900">Hifzul Quran Department</p>
+                            <p class="open-sans-font">Identity: Certified</p>
+                            <p class="open-sans-font">Certified By, Maulana Delowar Hossain Saidi</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Experience & Education Ends -->
+    </div>
+</section>
+
+<section class="main-content revealator-slideup revealator-once revealator-delay1">
+    <div class="container">
+        <div class="row">
+            <!-- Personal Info Starts -->
+            <div class="col-12 col-lg-12 col-xl-12">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="text-uppercase custom-title mb-0 ft-wt-600">other infos</h3>
+                    </div>
+                    <div class="col-12 d-block d-sm-none">
+                        <img src="img/img-mobile.jpg" class="img-fluid main-img-mobile" alt="my picture" />
+                    </div>
+                    <div class="col-4">
+                        <ul class="about-list list-unstyled open-sans-font">
+                            <li> <span class="title">father's name :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">Ahmmed Ali</span> </li>
+                            <li> <span class="title">mother's name :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">Shahnaz Parvin</span> </li>
+                            <li> <span class="title">blood group :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">B+ (+ve) / B Positove</span> </li>
+                            <li> <span class="title">Religion :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">Islam (Sunni)</span> </li>
+                            <li> <span class="title">Marital Status :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">Single</span> </li>
+                            <li> <span class="title">DoB :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">12th September, 1997</span> </li>
+                        </ul>
+                    </div>
+                    <div class="col-8">
+                        <ul class="about-list list-unstyled open-sans-font">
+                            <li> <span class="title">Present Address :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">House #8/1, Shohid Shohrawardy College Road (Shotorupar Mor), Siddikia Moholla, Khulna</span> </li>
+                            <li> <span class="title">permanent address :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">same</span> </li>
+                            <li> <span class="title">height :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">5'-2" / 5 feet - 2 inch</span> </li>
+                            <li> <span class="title">weight :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">78+Kg (Now)</span> </li>
+                            <li> <span class="title">Major Disease :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">Null</span> </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Personal Info Ends -->
+        </div>
+        <hr class="separator">
+        <hr class="separator mt-1">
+    </div>
+</section>
+<!-- Main Content Ends -->
+
+<!-- Template JS Files -->
+<script src="js/jquery-3.5.0.min.js"></script>
+<script src="js/styleswitcher.js"></script>
+<script src="js/preloader.min.js"></script>
+<script src="js/fm.revealator.jquery.min.js"></script>
+<script src="js/imagesloaded.pkgd.min.js"></script>
+<script src="js/masonry.pkgd.min.js"></script>
+<script src="js/classie.js"></script>
+<script src="js/cbpGridGallery.js"></script>
+<script src="js/jquery.hoverdir.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/custom.js"></script>
+
+</body>
+
+</html>
